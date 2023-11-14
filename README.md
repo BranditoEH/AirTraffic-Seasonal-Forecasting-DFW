@@ -1,4 +1,4 @@
-# Aircraft-Maintenance-Forecasting
+# AirTraffic-Seasonal-Forecasting
 ## Overview
 This repository contains the work for a capstone project focused on predicting aircraft maintenance needs based on operational patterns at high traffic airports. The project utilizes a logistic regression model to estimate the likelihood of maintenance based on the number of flight cycles.
 
