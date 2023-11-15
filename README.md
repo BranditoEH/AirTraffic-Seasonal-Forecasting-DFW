@@ -1,65 +1,66 @@
 # AirTraffic-Seasonal-Forecasting
+
 ## Overview
-This repository contains the work for a capstone project focused on predicting aircraft maintenance needs based on operational patterns at high traffic airports. The project utilizes a logistic regression model to estimate the likelihood of maintenance based on the number of flight cycles.
+This repository hosts the analysis of seasonal flight demand at Dallas/Fort Worth International Airport (KDFW) during the year 2022. The project examines flight patterns using ANOVA and linear regression to inform operational planning.
 
 ## Table of Contents
-- [Project Introduction](#project-introduction)
-- [Dataset Description](#dataset-description)
-- [Hypothesis](#hypothesis)
-- [Methodology](#methodology)
-- [Model Development](#model-development)
-- [Results and Discussion](#results-and-discussion)
-- [Conclusions](#conclusions)
-- [Future Work](#future-work)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- Project Introduction
+- Dataset Description
+- Hypotheses
+- Methodology
+- Model Development
+- Results and Discussion
+- Conclusions
+- Future Work
+- Installation
+- Usage
+- Contributing
+- License
+- Acknowledgments
 
 ## Project Introduction
-- Briefly introduce the concept of predictive maintenance and its importance in the aviation industry.
-- Explain the aim and the scope of the capstone project.
+- Introduction to seasonal flight demand analysis.
+- Objective to optimize airport operations through data-driven insights.
 
 ## Dataset Description
-- Outline the structure of the dataset used.
-- Describe the variables included in the dataset and their significance.
+- Data collected from the OpenSky Network.
+- Variables: 'typecode', 'weekday', 'month', 'year', 'season', 'num_flights'.
 
-## Hypothesis
-- Detail the hypothesis that frequent takeoffs and landings have a different impact on aircraft maintenance needs than flight duration.
+## Hypotheses
+- H0: No seasonal variation in flight demand at DFW.
+- H1: Significant seasonal variation in flight demand at DFW.
 
 ## Methodology
-- Explain the approach taken to prepare the data for analysis.
-- Describe the steps involved in the exploratory data analysis.
+- Data preprocessing and conversion into datetime format.
+- Seasonal categorization aligned with DFW's meteorological patterns.
 
 ## Model Development
-- Discuss how the logistic regression model was chosen for the project.
-- Explain the process of feature selection and engineering.
-- Outline the model training and validation process.
+- Development of a one-way ANOVA test to assess seasonal differences.
+- Implementation of a linear regression model to predict flight demand.
 
 ## Results and Discussion
-- Present the key findings from the model.
-- Discuss the model's performance and any insights gained from the coefficients.
+- F-value and p-value interpretation from the ANOVA test.
+- R-squared and MSE from the linear regression model.
+- Cross-validation scores to evaluate model consistency.
 
 ## Conclusions
-- Summarize the implications of the study for airlines and airport operations.
-- Reflect on the limitations of the current model.
+- Insights into flight demand stability throughout 2022.
+- Implications for resource allocation and operational strategy at DFW.
 
 ## Future Work
-- Propose enhancements or additional research that could extend the project.
+- Suggestions to incorporate additional variables for a more comprehensive model.
 
 ## Installation
-- Provide instructions on how to install any software required to run the analysis.
+- Instructions on setting up the environment to run the analysis.
 
 ## Usage
-- Guide on how to run the model with the provided dataset.
-- Examples of how to interpret the output of the model.
+- Steps to execute the models and interpret the results.
 
 ## Contributing
-- Instructions for how others can contribute to the project.
+- Guidelines for contributing to the project.
 
 ## License
-- State the license under which this project is released.
+- Details of the license under which this project is released.
 
 ## Acknowledgments
-- Credit any individuals or organizations that provided assistance or data for the project.
+- Thanks to those who provided data, guidance, and resources for this analysis.
